@@ -1,0 +1,14 @@
+list=[]
+n=eval(input("Enter size of  the list"))
+print("\n")
+for i in range(n):
+    print("Enter the number into the list",i)
+    number=int(input())
+    list.append(number)
+    if number>0:
+        print("The number is positive number")
+    elif(number<0):
+        print("The number is negative number")
+    else:
+        print("The entered number is zero")
+    
